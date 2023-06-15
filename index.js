@@ -8,7 +8,7 @@ app.get('/',(req,res)=>{
     res.json({
         name:"Yessi esta es la pagina principal"
     })
-})
+});
 
 
 app.get('/api',(req,res)=>{
